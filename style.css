@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(86, 86, 244);
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+.navbar-brand{
+    color: aliceblue;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.navbar-brand:hover{
+    color: aqua;
+}
+
+.sum-link{
+    color: rgb(165, 245, 165) !important;
+    font-family: "Fredoka", sans-serif;
+    font-size: 24px;
+}
+
+.sub-link{
+    color: rgb(251, 121, 121) !important;
+    font-family: "Fredoka", sans-serif;
+    font-size: 24px;
+}
+
+.multi-link{
+    color: yellow !important;
+    font-family: "Fredoka", sans-serif;
+    font-size: 24px;
+}
+
+.div-link{
+    color: rgb(70, 199, 242) !important;
+    font-family: "Fredoka", sans-serif;
+    font-size: 24px;
+}
+
+.navbarIcon{
+    width: 70px;
+    height: 70px;
+  }
+
+
+
+  .operationTitle{
+    box-shadow: inset 0 0 0 5px rgba(255,255,255,0.1);
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-family: "Fredoka", sans-serif;
+    font-size: 50px;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+  }
+  
+  h2{
+    text-align: center;
+    align-items: center;
+    font-family: "Fredoka", sans-serif;
+    margin-top: 10px;
+    color: rgb(86, 86, 244);
+  
+  }
+
+ .container{
+    display: flex;
+    margin-bottom: 100px;
+ }
+  
+
+  .card_face_operation {
+    position: absolute;
+    width: 45%; 
+    height: 50%;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 3px 18px 3px rgba(0, 0,0, 0.2);
+    background-color:rgb(141, 251, 214);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3%;
+    padding-top: 50px;
+    min-width: 100px;
+    min-height: 500px; 
+
+  }
+  
+
+
+  .card_header_operation h2{
+    color: rgb(86, 86, 244);
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Fredoka", sans-serif;
+   
+  }
+  
+  
+  
+  
+  .card_body_operation ul {
+    color: rgb(86, 86, 244);
+    font-size: 18px;
+    line-height: 2;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+    font-family: "Fredoka", sans-serif;
+    margin: auto;
+    margin-top: 20px;
+    
+  
+  }
+  
+  .card_body_operation li{
+    cursor: pointer;
+  }
+  
+ 
+button{
+    border:2px solid rgb(86, 86, 244);
+    background-color:#fff;
+    border-radius: 10px;
+    width: 40%;
+    height: 60px;
+    margin-top: 5%;
+    font-family: "Fredoka", sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+    color:rgb(86, 86, 244);
+    box-shadow: 0px 3px 18px 3px rgba(0, 0,0, 0.2);
+  }
+
+
+  #questions{
+    position: absolute;
+    width: 30%; 
+    height: 60%;
+    border-radius: 20px;
+    box-shadow: 0px 3px 18px 3px rgba(0, 0,0, 0.2);
+    background-color:rgb(141, 251, 214);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50% ;
+    padding-top: 50px;
+    min-width: 300px;
+    min-height: 650px; 
+        
+  }
+
+  .question-result-container{
+    margin: 10px;
+    
+    
+  }
+  
+  .answer{
+    border: 2px solid rgb(86, 86, 244);
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    align-items:center ;
+    justify-content: center;
+  
+   
+  }
+
+
+  .question-container{
+    font-family: "Fredoka", sans-serif;
+    font-size: 18px;
+  }
+  
+  .result-icon{
+    display: flex;
+    position:relative;
+    margin-left: 90%;
+    margin-top: -28px;
+  }
+
+.info{
+  text-align: center;
+  align-items:center;
+  justify-content: center;
+  color: #fff;
+  font-family: "Fredoka", sans-serif;
+  font-size: 36px;
+
+}
+
