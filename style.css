@@ -80,6 +80,8 @@ body{
     display: flex;
     margin-bottom: 100px;
  }
+
+
   
 
   .card_face_operation {
@@ -97,6 +99,8 @@ body{
     padding-top: 50px;
     min-width: 100px;
     min-height: 500px; 
+    margin-top: -50px;
+   
 
   }
   
@@ -113,7 +117,7 @@ body{
   }
   
   
-  
+
   
   .card_body_operation ul {
     color: rgb(86, 86, 244);
@@ -157,14 +161,15 @@ button{
     height: 60%;
     border-radius: 20px;
     box-shadow: 0px 3px 18px 3px rgba(0, 0,0, 0.2);
-    background-color:rgb(141, 251, 214);
+    color: #fff;
     text-align: center;
     align-items: center;
     justify-content: center;
     margin-left: 50% ;
-    padding-top: 50px;
     min-width: 300px;
     min-height: 650px; 
+    margin-top: 50px;
+
         
   }
 
@@ -181,8 +186,8 @@ button{
     text-align: center;
     align-items:center ;
     justify-content: center;
+    font-size: 24px;
   
-   
   }
 
 
@@ -204,7 +209,7 @@ button{
   justify-content: center;
   color: #fff;
   font-family: "Fredoka", sans-serif;
-  font-size: 36px;
+
 
 }
 
