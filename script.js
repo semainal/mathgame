@@ -372,7 +372,7 @@ let mathOp = document.querySelector("#mathOperations");
               let num1 = Math.floor(Math.random() * 5) + 1;
               let num2 = Math.floor(Math.random() * 5) + 1;
           
-              // Çarpma işlemi olarak belirtilmeli
+            
               let container = createQuestionContainer(num1, num2, "multiplication");
               questionsDiv.appendChild(container);
             }
@@ -446,9 +446,9 @@ let mathOp = document.querySelector("#mathOperations");
             questionsDiv.innerHTML = ''; 
           
             for (let i = 0; i < 10; i++) {
-              let divisor = Math.floor(Math.random() * 100) + 1;  // Kalansız bölünebilen bir sayı
-              let num2 = Math.floor(Math.random() * 10) + 1;       // İkinci sayı 1 ile 10 arasında bir sayı
-              let num1 = divisor * num2;                            // İlk sayıyı hesapla
+              let divisor = Math.floor(Math.random() * 100) + 1;  
+              let num2 = Math.floor(Math.random() * 10) + 1;       
+              let num1 = divisor * num2;                            
           
               let container = createQuestionContainer(num1, num2, "division");
               questionsDiv.appendChild(container);
