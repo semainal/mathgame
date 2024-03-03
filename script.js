@@ -505,15 +505,15 @@ let mathOp = document.querySelector("#mathOperations");
           
               if (userAnswer === "") {
                 resultIcon.innerHTML = "&#63;";
-                resultIcon.style.color = "blue";
+                resultIcon.style.color = "aqua";
               } else {
                 let correctAnswer = calculateCorrectAnswer(num1, num2, operation);
                 if (parseInt(userAnswer) === correctAnswer) {
                   resultIcon.innerHTML = "&#10004;";
-                  resultIcon.style.color = "green";
+                  resultIcon.style.color = "aquamarine";
                 } else {
                   resultIcon.innerHTML = "&#10008;"; 
-                  resultIcon.style.color = "red";
+                  resultIcon.style.color = "rgb(247, 111, 111)";
                 }
               }
           
